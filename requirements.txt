@@ -1,0 +1,20 @@
+# Core
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+nltk
+gensim
+
+# Visualisasi
+matplotlib
+seaborn
+wordcloud
+
+# Progress Bar
+tqdm
+
+# Untuk BERT Labeling (jika digunakan)
+transformers
+torch
