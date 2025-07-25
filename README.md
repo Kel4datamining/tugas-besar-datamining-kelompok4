@@ -1,9 +1,9 @@
-**Judul Kasus**
+## Judul Kasus
 
 ANALISIS SENTIMEN ULASAN PRODUK APLIKASI E-COMMERCE LAYANAN TRANSPORTASI INDONESIA
 
 ---
-**Anggota Kelompok & NIM**
+## Anggota Kelompok & NIM
 - Revan Yuda Febriansyah		714220070
 - Bargana Kukuh Raditya		714220013
 - Ruth Diana Purnamasari Sagala	714220042
@@ -11,18 +11,18 @@ ANALISIS SENTIMEN ULASAN PRODUK APLIKASI E-COMMERCE LAYANAN TRANSPORTASI INDONES
   
 ---
 
-**Deskripsi Kasus**
+## Deskripsi Kasus
 # Sentiment Analysis: Gojek Twitter Reviews
 
 Proyek ini bertujuan untuk melakukan analisis sentimen pada ulasan pengguna aplikasi Gojek dari Twitter menggunakan berbagai pendekatan machine learning klasik, dengan pipeline yang modular dan dapat direproduksi, mengidentifikasi sentimen positif, negatif, atau netral.
 Analisis ini diharapkan dapat memberikan wawasan yang berguna dalam pengambilan keputusan yang strategis untuk pengembangan produk yang serupa di masa mendatang
 
 ---
-**Sumber Dataset**
+## Sumber Dataset
 dataset diambil dari hasil scraping ulasan pengguna terhadap produk gojek melalui platform X (Twitter)
 
 ---
-**Langkah Preprocessing**
+## Langkah Preprocessing
 1. Cleaning: Menghapus karakter spesial, angka, dan tanda baca yang tidak diperlukan.
 2. Case Folding: Mengubah seluruh teks ke huruf kecil.
 3. Tokenization: Memisahkan kalimat menjadi kata-kata.
@@ -32,7 +32,7 @@ dataset diambil dari hasil scraping ulasan pengguna terhadap produk gojek melalu
 
 ---
 
-**Algoritma yang Digunakan**
+## Algoritma yang Digunakan
 Naive Bayes (NB)
 Digunakan untuk klasifikasi sentimen berdasarkan probabilitas kemunculan kata.
 dengan model :
@@ -42,7 +42,7 @@ dengan model :
 - Naive Bayes + TF-IDF+Chi2
 
 ---
-**Evaluasi & Hasil**
+## Evaluasi & Hasil
 Evaluasi dilakukan menggunakan beberapa metrik performa model:
 
 Akurasi
