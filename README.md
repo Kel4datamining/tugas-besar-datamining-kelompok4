@@ -1,4 +1,5 @@
 **Judul Kasus**
+
 ANALISIS SENTIMEN ULASAN PRODUK APLIKASI E-COMMERCE LAYANAN TRANSPORTASI INDONESIA
 
 ---
@@ -51,6 +52,8 @@ F1-Score
 Confusion Matrix
 Hasil evaluasi menunjukkan bahwa:
 Model Naive Bayes + BoW menunjukkan performa terbaik dengan akurasi 70% (0.70)
+
+---
 
 ## 📁 Struktur Folder
 ```
