@@ -19,7 +19,7 @@ Analisis ini diharapkan dapat memberikan wawasan yang berguna dalam pengambilan 
 
 ---
 ## Sumber Dataset
-dataset diambil dari hasil scraping ulasan pengguna terhadap produk gojek melalui platform X (Twitter)
+Dataset diambil dari hasil scraping ulasan pengguna terhadap produk gojek melalui platform X (Twitter)
 
 ---
 ## Langkah Preprocessing
