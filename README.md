@@ -118,15 +118,12 @@ tugas-besar-datamining-kelompok4/
 
 ## 🚀 Cara Menjalankan Pipeline
 
-1. Pastikan dependencies sudah terinstall:
+1. Clone repository ke local:
    ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/Kel4datamining/tugas-besar-datamining-kelompok4.git
    ```
 
-2. Jalankan pipeline:
-    ```
-    ./run.sh
-    ```
+2. Jalankan file run.sh yang ada pada folder tersebut
 
 ---
 
