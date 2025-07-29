@@ -1,6 +1,57 @@
-# 📊 Sentiment Analysis: Gojek Twitter Reviews
+## Judul Kasus
 
-Proyek ini bertujuan untuk melakukan analisis sentimen pada ulasan pengguna aplikasi Gojek dari Twitter menggunakan berbagai pendekatan machine learning klasik, dengan pipeline yang modular dan dapat direproduksi.
+ANALISIS SENTIMEN ULASAN PRODUK APLIKASI E-COMMERCE LAYANAN TRANSPORTASI INDONESIA
+
+---
+## Anggota Kelompok & NIM
+- Revan Yuda Febriansyah		714220070
+- Bargana Kukuh Raditya		714220013
+- Ruth Diana Purnamasari Sagala	714220042
+- Gilang Andhika Buwana		714220046
+  
+---
+
+## Deskripsi Kasus
+# Sentiment Analysis: Gojek Twitter Reviews
+
+Proyek ini bertujuan untuk melakukan analisis sentimen pada ulasan pengguna aplikasi Gojek dari Twitter menggunakan berbagai pendekatan machine learning klasik, dengan pipeline yang modular dan dapat direproduksi, mengidentifikasi sentimen positif, negatif, atau netral.
+Analisis ini diharapkan dapat memberikan wawasan yang berguna dalam pengambilan keputusan yang strategis untuk pengembangan produk yang serupa di masa mendatang
+
+---
+## Sumber Dataset
+Dataset diambil dari hasil scraping ulasan pengguna terhadap produk gojek melalui platform X (Twitter)
+
+---
+## Langkah Preprocessing
+1. Cleaning: Menghapus karakter spesial, angka, dan tanda baca yang tidak diperlukan.
+2. Case Folding: Mengubah seluruh teks ke huruf kecil.
+3. Tokenization: Memisahkan kalimat menjadi kata-kata.
+4. Stopword Removal: Menghapus kata-kata umum yang tidak memiliki makna signifikan.
+5. Stemming: Mengembalikan kata ke bentuk dasarnya menggunakan Sastrawi.
+6. Labeling Sentimen: Memberi label sentimen (positif, negatif, netral) secara manual atau semi-otomatis.
+
+---
+
+## Algoritma yang Digunakan
+Naive Bayes (NB)
+Digunakan untuk klasifikasi sentimen berdasarkan probabilitas kemunculan kata.
+dengan model :
+- Naive Bayes + TF-IDF
+- Naive Bayes + BoW
+- Naive Bayes + Word2Vec
+- Naive Bayes + TF-IDF+Chi2
+
+---
+## Evaluasi & Hasil
+Evaluasi dilakukan menggunakan beberapa metrik performa model:
+
+Akurasi
+Precision
+Recall
+F1-Score
+Confusion Matrix
+Hasil evaluasi menunjukkan bahwa:
+Model Naive Bayes + BoW menunjukkan performa terbaik dengan akurasi 70% (0.70)
 
 ---
 
@@ -69,13 +120,14 @@ tugas-besar-datamining-kelompok4/
 
 1. Pastikan dependencies sudah terinstall:
    ```bash
-   pip install -r requirements.txt
+   pip install -r
+   requirements.txt
    ```
 
 2. Jalankan pipeline:
-    ```
-    ./run.sh
-    ```
+   ```
+   ./run.sh
+   ```
 
 ---
 
